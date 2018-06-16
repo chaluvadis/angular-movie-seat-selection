@@ -1,0 +1,21 @@
+{
+  "name": "movie-angular",
+  "authors": [
+    "chaluvadis <surendra.chaluvadi@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "fontawesome": "^5.0.13",
+    "angular": "^1.7.2"
+  }
+}

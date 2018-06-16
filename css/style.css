@@ -1,0 +1,85 @@
+body {
+    margin:0px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    background-color: #e4e2e1 !important;
+    display: flex;
+}
+
+#sub-container {
+    height: 80vh;
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    border: solid 2px white;
+    display: flex;
+}
+
+.movie_info{
+    width: 40%;
+    border: solid 1px whitesmoke;
+    height: 100%;
+    background-color: #448aff;
+}
+
+.movie_seating {
+    width: 60%;
+    border: solid 1px whitesmoke;
+    height: 100%;
+    background-color: #448aff;
+}
+
+.movie_logo {
+    text-align: center;
+}
+
+.movie_main_info {
+    text-align: left;
+    padding: 20px;
+}
+
+.movie_cast ul {
+    list-style: none;
+}
+
+.movie_cast ul li {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.movie_cast ul li span.primary {
+    color: white;
+    font-weight: bold;
+}
+
+ul.seating_row_order {
+    list-style: none;
+    display: flex;
+}
+ul.seating_row_order li {
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+li.seating_row_name {
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+li.seating_row_seat i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.not_selected {
+    color: white !important;
+}
+
+.row_selected {
+    color: red !important;
+}
